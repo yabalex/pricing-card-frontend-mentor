@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+   font-family: 'Karla'
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+h2 + h4 {
+  color: #c0df34
+}
+body {
+  background-color: #e5eff5;
+  padding: 20px
+}
+h2, h4, p {
+  margin: 0;
+}
+.card {
+  width: 650px;
+  height: 450px;
+  box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.75);
+  border-radius: 5px;
+  overflow: hidden;
+  /*border: 2px solid red;*/
+}
+.community {
+  width: 100%;
+  height: 48%;
+  border: 2px solid white;
+  background-color: white;
+  padding: 40px;
+}
+.bottom-section {
+  display: flex;
+  width: 100%;
+  height: 52%;
+  /*border: 2px solid orange;*/
+}
+.monthly {
+  width: 50%;
+  /*border: 2px solid black;*/
+  background-color: #219c9a;
+  padding: 20px;
+  color: white;
+  padding: 35px
+}
+.why-us {
+  width: 50%;
+  /*border: 2px solid green;*/
+  background-color: #2ab2b0;
+  color: white;
+  padding: 30px;
+}
+.community h2 {
+  color: #2ab2b0;
+  margin-bottom: 25px
+}
+.community p {
+  color: #98a6bd;
+  line-height: 25px;
+}
+.community h4 {
+  margin-bottom: 10px
+}
+.bold {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.opacity {
+  color: rgba(255,255,255,0.5);
+  margin-left: 8px
+  }
+.monthly h4 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+.bold, .opacity {
+  display: inline-block
+}
+.monthly p {
+  margin-bottom: 25px
+}
+button {
+  border: none;
+  width: 238px;
+  height: 40px;
+  font-family: 'Karla';
+  font-weight: 700;
+  background-color: #c0df34;
+  color: white;
+  font-size: 0.92rem;
+  border-radius: 5px
+}
+.why-us h4 {
+  margin-bottom: 15px
+}
+h4 + p {
+  line-height: 20px;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.7);
+}
+button:hover {
+  cursor: pointer;
+}
